@@ -58,7 +58,9 @@ def on_key(event):
     
     # map[int(playerPos[0]), int(playerPos[1])] = "M"
     # map(oldPlayerPos = "X")
-    
+
+
+# LINES 63 TO 73 ARE THE MAP PRINTING LINES - NEEDS SOME TLC.
 print(map)
 
 # for r in range(mapSize):
@@ -75,3 +77,5 @@ for item in map:
 
 keyboard.hook(on_key)
 keyboard.wait("esc")
+
+# Test comment - this should pop up in Github, too, hopefully. Minty stuff.
